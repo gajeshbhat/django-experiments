@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Upload Image</title>
+</head>
+<body>
+<form id="create_podcast_form" method="post" enctype="multipart/form-data">
+ {% csrf_token %}
+{{ imageUploadFormResult.as_p }}
+ <input type="hidden" name="next" value="{{ request.path }}">
+ <input type="submit" value="Submit"/>
+ </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>List Uploaded</title>
+</head>
+<body>
+<p>
+<h3>Uploaded files links</h3>
+{% for upload in uploadImageList %}
+	<li><a href="{{ upload.uploadedImage.url }}"></a></li>
+{% endfor %}
+</p>
+
+</body>
+</html>
