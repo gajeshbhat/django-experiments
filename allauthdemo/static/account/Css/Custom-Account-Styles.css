@@ -1,0 +1,221 @@
+
+/* Login Page Styles*/
+
+#head_banner{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.container-fluid{
+    padding-top: 2rem;
+}
+
+#login_form label{
+    padding-right: 0.3rem;
+    
+}
+
+#login_form input{
+    width: 16rem;
+    height: 2.5rem;
+    padding-left:1rem;
+    font-size: 1.2rem;
+}
+
+#login_form input[type=checkbox]{
+    width: 2rem;
+    height: 1rem;
+}
+
+#login_form button{
+    margin-right: 2rem;
+    margin-left: 2.7rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    width:8rem;
+    height: 2.4rem;
+    border-radius: 1.3rem;
+    border:2px solid;
+}
+
+#login_form a{
+    margin-left: 1.6rem;
+    margin-bottom: 1rem;
+    padding-right: 8.7rem;
+    width:8rem;
+    height: 2.4rem;
+    border-radius: 1.3rem;
+    border:2px solid;
+}
+
+.social_providers_list{
+    display: inline;
+    margin-top: 2rem;
+    padding-left: 35.2rem;
+}
+
+.social_providers_list a{
+    text-decoration: none;
+    margin-right:1rem;
+    border-radius:1rem;
+    width:7rem;
+    height: 2.4rem;
+    border:2px solid;
+}
+
+#social_icon{
+    display: inline;
+    padding-right: 0.6rem;
+}
+
+/* Signup Page Styles */
+
+#signup_form input{
+    width: 16rem;
+    height: 2.8rem;
+    padding-left:1rem;
+    font-size: 1.2rem;
+}
+
+#signup_form #id_username{
+    margin-left: 2.6rem;
+}
+
+#signup_form #id_email{
+    margin-left: 0.3rem;
+}
+
+#signup_form #id_password1{
+    margin-left: 2.7rem;
+}
+
+#signup_form #id_pasword2{
+    margin-left: 0.8rem;
+}
+
+.exist_account_info{
+    text-align:center;
+    font-size: 1.3rem;
+}
+
+/* Sign Out Page Styling */
+
+.confirm_logout_info{
+    text-align:center;
+    font-size: 1.3rem;
+}
+
+#logout_form button{
+    margin-right: 2rem;
+    margin-left: 2.7rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    width:8rem;
+    height: 2.4rem;
+    border-radius: 1.3rem;
+    border:2px solid;
+}
+
+#logout_form a{
+    margin-right: 2rem;
+    margin-left: 2.7rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    width:8rem;
+    height: 2.4rem;
+    border-radius: 1.3rem;
+    border:2px solid;
+}
+
+/* Change Password Page Styles*/
+
+#change_password_form input{
+    width: 16rem;
+    height: 2.5rem;
+    padding-left:1rem;
+    font-size: 1.2rem;
+}
+
+#change_password_form button{
+    margin-right: 1rem;
+    margin-left: 2.7rem;
+    margin-bottom: 1rem;
+    margin-top:1rem;
+    padding-bottom: 1rem;
+    width:10rem;
+    height: 2.4rem;
+    border-radius: 1.3rem;
+    border:2px solid;
+}
+
+#change_password_form #id_oldpassword{
+    margin-left: 2.8rem;
+}
+
+#change_password_form #id_password1{
+    margin-left: 3.7rem;
+}
+
+#change_password_form #id_password2{
+    margin-left: 0.7rem;
+}
+
+/* Forgot Password Page Styling */
+
+.forgot_password_info{
+    text-align:center;
+    font-size: 1.3rem;
+}
+
+
+#forgot_password_form label{
+    padding-right: 1rem;
+    font-size: 1.2rem;
+}
+
+#forgot_password_form input{
+    width: 16rem;
+    height: 2.5rem;
+    padding-left:1rem;
+    font-size: 1.2rem;
+}
+
+
+#forgot_password_form button{
+    margin-right: 1rem;
+    margin-left: 2.7rem;
+    margin-bottom: 1rem;
+    margin-top:1rem;
+    padding-bottom: 1rem;
+    width:10rem;
+    height: 2.4rem;
+    border-radius: 1.3rem;
+    border:2px solid;
+}
+
+/* Email Settings Page Styling */
+
+#email_form input{
+    width: 16rem;
+    height: 2.5rem;
+    padding-left:1rem;
+    font-size: 1.2rem;
+}
+
+#email_form label{
+    padding-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.email_settings_info{
+    text-align:center;
+    font-size: 1.3rem;
+}
+
+/* Email Confirmation Styling */
+
+#verification_sent_info{
+    text-align:center;
+    font-size: 1.3rem;
+}
+
