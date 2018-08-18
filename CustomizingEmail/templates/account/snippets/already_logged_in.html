@@ -1,0 +1,16 @@
+{% extends "account/base.html" %}
+
+{% load i18n %}
+{% load account %}
+
+{% block content %}
+{% user_display user as user_display %}
+<div class="container-fluid text-center ">
+
+<h3 class="h3" id="head_banner">Already Logged in!</h3>
+<p class="forgot_password_info" >You are already logged in as <h1 class="display-3"> {{ user_display }}</h1>.</p>
+<a class="btn btn-outline-danger" id="custom_logout_no" href="/accounts/profile/">Back to Profile</a>
+
+</div>
+
+{% endblock %}

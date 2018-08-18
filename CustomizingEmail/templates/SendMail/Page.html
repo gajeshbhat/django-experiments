@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Send Email</title>
+</head>
+<body>
+<form method="post" enctype="multipart/form-data">
+ {% csrf_token %}
+ 	{{ sendMessageForm }}
+ <input type="submit" value="Send Message Via Mail"/>
+ </form>
+</body>
+</html>

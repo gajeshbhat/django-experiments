@@ -1,0 +1,4 @@
+django
+django-allauth
+django_inlinecss
+django-naomi
